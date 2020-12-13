@@ -1,5 +1,5 @@
 export const Main = () => (
     <main>
-        <h2>Meu texto top</h2>
+        <h1>Meu texto top</h1>
     </main>
 );
