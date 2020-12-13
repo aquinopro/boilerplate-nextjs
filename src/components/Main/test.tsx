@@ -4,7 +4,7 @@ import { Main } from '.';
 describe('<Main />', () => {
     it('shoud render the heading', () => {
         const { container } = render(<Main />);
-        expect(screen.getByRole('heading', { name: /meu texto asd top/i })).toBeInTheDocument();
+        expect(screen.getByRole('heading', { name: /meu texto asds top/i })).toBeInTheDocument();
         // expect(container.firstChild).toMatchSnapshot();
     });
 });
