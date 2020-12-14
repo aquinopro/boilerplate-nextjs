@@ -1,11 +1,13 @@
 import { render, fireEvent, screen } from '@testing-library/react';
-import { Main } from '.';
+import Main from '.';
 
 describe('<Main />', () => {
     /** TEST DESCRIPTION **/
     it('shoud render the heading', () => {
         const { container } = render(<Main />);
-        expect(screen.getByRole('heading', { name: /meu texto top/i })).toBeInTheDocument();
+        expect(
+            screen.getByRole('heading', { name: /meu texto top/i })
+        ).toBeInTheDocument();
         expect(container.firstChild).toMatchSnapshot();
     });
 
