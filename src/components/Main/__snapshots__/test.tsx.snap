@@ -1,9 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> shoud render the heading 1`] = `
-<main>
-  <h1>
-    Meu texto top
+.c0 {
+  background-color: #5b00eb;
+}
+
+<div
+  class="c0"
+>
+  <h1
+    class="styles__Title-sc-1cs6c8-1"
+  >
+    meu texto top
   </h1>
-</main>
+</div>
 `;
