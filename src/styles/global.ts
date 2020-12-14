@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
     html{
         font-size:62.5%;
+        background: #f0f4f8;
     }
 
     html, body, #__next {
